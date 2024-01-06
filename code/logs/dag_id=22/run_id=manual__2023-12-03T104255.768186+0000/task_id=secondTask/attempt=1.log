@@ -1,0 +1,17 @@
+[2023-12-03T10:42:58.467+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 22.secondTask manual__2023-12-03T10:42:55.768186+00:00 [queued]>
+[2023-12-03T10:42:58.476+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 22.secondTask manual__2023-12-03T10:42:55.768186+00:00 [queued]>
+[2023-12-03T10:42:58.477+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-03T10:42:58.491+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): secondTask> on 2023-12-03 10:42:55.768186+00:00
+[2023-12-03T10:42:58.495+0000] {standard_task_runner.py:57} INFO - Started process 252 to run task
+[2023-12-03T10:42:58.499+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '22', 'secondTask', 'manual__2023-12-03T10:42:55.768186+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/Dag1.py', '--cfg-path', '/tmp/tmpy6763kc_']
+[2023-12-03T10:42:58.501+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask secondTask
+[2023-12-03T10:42:58.551+0000] {task_command.py:416} INFO - Running <TaskInstance: 22.secondTask manual__2023-12-03T10:42:55.768186+00:00 [running]> on host a78778d9c087
+[2023-12-03T10:42:58.630+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nik' AIRFLOW_CTX_DAG_ID='22' AIRFLOW_CTX_TASK_ID='secondTask' AIRFLOW_CTX_EXECUTION_DATE='2023-12-03T10:42:55.768186+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-03T10:42:55.768186+00:00'
+[2023-12-03T10:42:58.632+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-03T10:42:58.634+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo here is the second task']
+[2023-12-03T10:42:58.643+0000] {subprocess.py:86} INFO - Output:
+[2023-12-03T10:42:58.645+0000] {subprocess.py:93} INFO - here is the second task
+[2023-12-03T10:42:58.645+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-03T10:42:58.673+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=22, task_id=secondTask, execution_date=20231203T104255, start_date=20231203T104258, end_date=20231203T104258
+[2023-12-03T10:42:58.712+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-03T10:42:58.729+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

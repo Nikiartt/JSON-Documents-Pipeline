@@ -1,0 +1,280 @@
+---
+x-airflow-common: #standart Airflow docker compose created by comand: curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.0/docker-compose.yaml'
+  &airflow-common
+  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.0}
+  environment:
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+  volumes:
+    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+  user: "${AIRFLOW_UID:-50000}:0"
+  depends_on:
+    &airflow-common-depends-on
+    postgres:
+      condition: service_healthy
+      
+version: "3" 
+
+networks:
+  document-streaming:
+
+services:
+  zookeeper:
+    image: 'bitnami/zookeeper:3.7.0-debian-10-r70' #We specify the version since Zookeeper has to be properly configured with Kafka
+    ports:
+      - '2181:2181' # These are the ports that will allow the Zookeeper to talk in the docker container
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes  #Allow to connect for not authenticated users 
+    networks:
+      - document-streaming   #This is the name of the main network (all images have to run in the same network otherwise we won't be able to configure them)
+
+  kafka:
+    image: 'bitnami/kafka:2.8.0-debian-10-r42'
+    ports:
+      - '9093:9093'   #Port which allows to connect external sources(not in docker)          
+    environment:
+      - KAFKA_BROKER_ID=1 # We specify on which broker we will work
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CLIENT:PLAINTEXT,EXTERNAL:PLAINTEXT     #Defines listeners' protocols
+      - KAFKA_CFG_LISTENERS=CLIENT://:9092,EXTERNAL://:9093                              #In the docker kafka will connect through the 9092 port and for external connection with Kafka we can use the 9093 protoc
+      - KAFKA_CFG_ADVERTISED_LISTENERS=CLIENT://kafka:9092,EXTERNAL://localhost:9093     # Instead ip we can use image name (docker feature) and localhost for external connection with the docker container
+      - KAFKA_INTER_BROKER_LISTENER_NAME=CLIENT 
+    depends_on:
+      - zookeeper #Configures with Zookeeper
+    networks:
+      - document-streaming #Specify the main network
+
+  spark:
+    image: 'jupyter/pyspark-notebook:spark-2' # We will use Jupiter Notebook with Spark since Spark provides read-and-write streams to Kafka
+    ports:
+      - '8888:8888' 
+      - "4040-4080:4040-4080"
+    volumes:
+      - ./ApacheSpark/:/home/jovyan/work 
+    networks:
+      - document-streaming
+
+  mongo:
+    container_name: mongo-dev # The main mond database doesn't have UI, so we need mongo-express to regulate mong through API connection
+    image: mongo
+    volumes:
+      - ~/dockerdata/mongodb:/data/db  #We specify where the data will be stored (this allows us not to lose the data if the container is destroyed)
+    restart: on-failure
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example   #Credectials for connection to MongoDB
+      MONGO_INITDB_DATABASE: auth
+    networks:
+      - document-streaming
+
+  mongo-express:
+    image: mongo-express
+    restart: on-failure
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongo-dev
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example # Mongo-express which depends on MongoDB and uses credentials to connect to MongoDB
+      ME_CONFIG_BASICAUTH_USERNAME: admin
+      ME_CONFIG_BASICAUTH_PASSWORD: tribes  # There is authentication of access to the UI
+    networks:
+      - document-streaming
+    depends_on:
+      - mongo
+
+  postgres: #Postgres was used from airflow predefined
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    restart: always
+    networks:
+      - document-streaming
+
+  adminer: #Adminer for Postgres UI
+    image: adminer
+    restart: on-failure
+    ports:
+      - 8083:8080
+    networks:
+      - document-streaming
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+    networks:
+      - document-streaming
+
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+    networks:
+      - document-streaming
+
+  airflow-triggerer:
+    <<: *airflow-common
+    command: triggerer
+    healthcheck:
+      test: ["CMD-SHELL", 'airflow jobs check --job-type TriggererJob --hostname "$${HOSTNAME}"']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+    networks:
+      - document-streaming
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    # yamllint disable rule:line-length
+    command:
+      - -c
+      - |
+        if [[ -z "${AIRFLOW_UID}" ]]; then
+          echo
+          echo -e "\033[1;33mWARNING!!!: AIRFLOW_UID not set!\e[0m"
+          echo "If you are on Linux, you SHOULD follow the instructions below to set "
+          echo "AIRFLOW_UID environment variable, otherwise files will be owned by root."
+          echo "For other operating systems you can get rid of the warning with manually created .env file:"
+          echo "    See: https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#setting-the-right-airflow-user"
+          echo
+        fi
+        one_meg=1048576
+        mem_available=$$(($$(getconf _PHYS_PAGES) * $$(getconf PAGE_SIZE) / one_meg))
+        cpus_available=$$(grep -cE 'cpu[0-9]+' /proc/stat)
+        disk_available=$$(df / | tail -1 | awk '{print $$4}')
+        warning_resources="false"
+        if (( mem_available < 4000 )) ; then
+          echo
+          echo -e "\033[1;33mWARNING!!!: Not enough memory available for Docker.\e[0m"
+          echo "At least 4GB of memory required. You have $$(numfmt --to iec $$((mem_available * one_meg)))"
+          echo
+          warning_resources="true"
+        fi
+        if (( cpus_available < 2 )); then
+          echo
+          echo -e "\033[1;33mWARNING!!!: Not enough CPUS available for Docker.\e[0m"
+          echo "At least 2 CPUs recommended. You have $${cpus_available}"
+          echo
+          warning_resources="true"
+        fi
+        if (( disk_available < one_meg * 10 )); then
+          echo
+          echo -e "\033[1;33mWARNING!!!: Not enough Disk space available for Docker.\e[0m"
+          echo "At least 10 GBs recommended. You have $$(numfmt --to iec $$((disk_available * 1024 )))"
+          echo
+          warning_resources="true"
+        fi
+        if [[ $${warning_resources} == "true" ]]; then
+          echo
+          echo -e "\033[1;33mWARNING!!!: You have not enough resources to run Airflow (see above)!\e[0m"
+          echo "Please follow the instructions to increase amount of resources available:"
+          echo "   https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#before-you-begin"
+          echo
+        fi
+        mkdir -p /sources/logs /sources/dags /sources/plugins
+        chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
+        exec /entrypoint airflow version
+    # yamllint enable rule:line-length
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_MIGRATE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+      _PIP_ADDITIONAL_REQUIREMENTS: ''
+    user: "0:0"
+    volumes:
+      - ${AIRFLOW_PROJ_DIR:-.}:/sources
+    networks:
+      - document-streaming
+
+  airflow-cli:
+    <<: *airflow-common
+    profiles:
+      - debug
+    environment:
+      <<: *airflow-common-env
+      CONNECTION_CHECK_MAX_COUNT: "0"
+    # Workaround for entrypoint issue. See: https://github.com/apache/airflow/issues/16252
+    command:
+      - bash
+      - -c
+      - airflow
+    networks:
+      - document-streaming
+  
+  api-ingest:
+    image: 'api-ingest'  #This is our app image
+    restart: always
+    ports:
+       - '80:80'
+    environment:
+      - HOST=postgres
+      - USERDB=airflow
+      - PASSWORD=airflow
+      - DATABASE=postgres
+      - PORT=5432
+      - SECRET_KEY=098638v73v8fv73gf8v78
+      - ACCESS_TOKEN_EXPIRE_MINUTES=15
+      - ALGORITHM=HS256
+    command: uvicorn app.main:app --host 0.0.0.0 --port 80 --reload
+    depends_on:
+      - postgres
+    networks:
+      - document-streaming
+
+volumes:
+  postgres-db-volume:

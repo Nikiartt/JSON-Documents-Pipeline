@@ -1,0 +1,30 @@
+[2024-01-05T20:06:00.670+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable permission to 509
+[2024-01-05T20:06:00.671+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable'
+[2024-01-05T20:06:00.709+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable permission to 509
+[2024-01-05T20:06:00.710+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable'
+[2024-01-05T20:06:00.752+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: User_counter.PostgresTable scheduled__2024-01-05T20:05:00+00:00 [queued]>
+[2024-01-05T20:06:00.761+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: User_counter.PostgresTable scheduled__2024-01-05T20:05:00+00:00 [queued]>
+[2024-01-05T20:06:00.762+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-01-05T20:06:00.776+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): PostgresTable> on 2024-01-05 20:05:00+00:00
+[2024-01-05T20:06:00.780+0000] {standard_task_runner.py:60} INFO - Started process 263 to run task
+[2024-01-05T20:06:00.785+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'User_counter', 'PostgresTable', 'scheduled__2024-01-05T20:05:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/User_counter.py', '--cfg-path', '/tmp/tmp84kwsvzc']
+[2024-01-05T20:06:00.789+0000] {standard_task_runner.py:88} INFO - Job 3: Subtask PostgresTable
+[2024-01-05T20:06:00.841+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable permission to 509
+[2024-01-05T20:06:00.842+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:05:00+00:00/task_id=PostgresTable'
+[2024-01-05T20:06:00.843+0000] {task_command.py:423} INFO - Running <TaskInstance: User_counter.PostgresTable scheduled__2024-01-05T20:05:00+00:00 [running]> on host e91b89fa10db
+[2024-01-05T20:06:00.943+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='User_counter' AIRFLOW_CTX_TASK_ID='PostgresTable' AIRFLOW_CTX_EXECUTION_DATE='2024-01-05T20:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-05T20:05:00+00:00'
+[2024-01-05T20:06:00.944+0000] {sql.py:276} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS users_count (
+            count_id SERIAL PRIMARY KEY,
+            count INTEGER NOT NULL,
+            date VARCHAR NOT NULL);
+[2024-01-05T20:06:00.955+0000] {base.py:83} INFO - Using connection ID 'postgres_default' for task execution.
+[2024-01-05T20:06:00.977+0000] {base.py:83} INFO - Using connection ID 'postgres_default' for task execution.
+[2024-01-05T20:06:00.982+0000] {sql.py:432} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS users_count (
+            count_id SERIAL PRIMARY KEY,
+            count INTEGER NOT NULL,
+            date VARCHAR NOT NULL);, parameters: None
+[2024-01-05T20:06:01.005+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=User_counter, task_id=PostgresTable, execution_date=20240105T200500, start_date=20240105T200600, end_date=20240105T200601
+[2024-01-05T20:06:01.078+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-05T20:06:01.103+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2024-01-05T20:57:01.791+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert permission to 509
+[2024-01-05T20:57:01.792+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert'
+[2024-01-05T20:57:01.827+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert permission to 509
+[2024-01-05T20:57:01.827+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert'
+[2024-01-05T20:57:01.876+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: User_counter.Insert scheduled__2024-01-05T20:56:00+00:00 [queued]>
+[2024-01-05T20:57:01.887+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: User_counter.Insert scheduled__2024-01-05T20:56:00+00:00 [queued]>
+[2024-01-05T20:57:01.887+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-01-05T20:57:01.904+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): Insert> on 2024-01-05 20:56:00+00:00
+[2024-01-05T20:57:01.908+0000] {standard_task_runner.py:60} INFO - Started process 2027 to run task
+[2024-01-05T20:57:01.912+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'User_counter', 'Insert', 'scheduled__2024-01-05T20:56:00+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/User_counter.py', '--cfg-path', '/tmp/tmpzy1ly59w']
+[2024-01-05T20:57:01.916+0000] {standard_task_runner.py:88} INFO - Job 82: Subtask Insert
+[2024-01-05T20:57:01.968+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert permission to 509
+[2024-01-05T20:57:01.969+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T20:56:00+00:00/task_id=Insert'
+[2024-01-05T20:57:01.971+0000] {task_command.py:423} INFO - Running <TaskInstance: User_counter.Insert scheduled__2024-01-05T20:56:00+00:00 [running]> on host e91b89fa10db
+[2024-01-05T20:57:02.075+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='User_counter' AIRFLOW_CTX_TASK_ID='Insert' AIRFLOW_CTX_EXECUTION_DATE='2024-01-05T20:56:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-05T20:56:00+00:00'
+[2024-01-05T20:57:02.076+0000] {sql.py:276} INFO - Executing: INSERT INTO users_count (count, date) 
+        VALUES ((select count(id) from users) , %(date)s );
+[2024-01-05T20:57:02.085+0000] {base.py:83} INFO - Using connection ID 'postgres_default' for task execution.
+[2024-01-05T20:57:02.096+0000] {base.py:83} INFO - Using connection ID 'postgres_default' for task execution.
+[2024-01-05T20:57:02.101+0000] {sql.py:432} INFO - Running statement: INSERT INTO users_count (count, date) 
+        VALUES ((select count(id) from users) , %(date)s );, parameters: {'date': '2024-01-05 20:57:01'}
+[2024-01-05T20:57:02.103+0000] {sql.py:441} INFO - Rows affected: 1
+[2024-01-05T20:57:02.114+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=User_counter, task_id=Insert, execution_date=20240105T205600, start_date=20240105T205701, end_date=20240105T205702
+[2024-01-05T20:57:02.165+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-05T20:57:02.186+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

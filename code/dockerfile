@@ -1,0 +1,11 @@
+#In this file we reffer to triangolo imamge as the base imnage.
+FROM python:3.10
+#Install necessary libraries
+COPY requirements.txt /tmp/
+#Say Linux to install  through pip libraries from file
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --requirement /tmp/requirements.txt
+#Show the direction of aplication
+COPY ./app /app
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]

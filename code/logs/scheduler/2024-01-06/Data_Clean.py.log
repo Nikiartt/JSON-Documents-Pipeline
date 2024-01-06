@@ -1,0 +1,577 @@
+[2024-01-06T15:09:06.393+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:09:06.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:09:06.413+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:09:06.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:09:06.508+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:09:06.495+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:09:06.509+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:09:06.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.360 seconds
+[2024-01-06T15:09:37.074+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:09:37.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:09:37.080+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:09:37.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:09:37.114+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:09:37.104+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:09:37.115+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:09:37.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.146 seconds
+[2024-01-06T15:10:07.515+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:10:07.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:10:07.518+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:10:07.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:10:07.533+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:10:07.529+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:10:07.534+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:10:07.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.047 seconds
+[2024-01-06T15:10:37.773+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:10:37.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:10:37.776+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:10:37.775+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:10:37.791+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:10:37.787+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:10:37.792+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:10:37.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.049 seconds
+[2024-01-06T15:11:08.042+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:11:08.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:11:08.045+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:11:08.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:11:08.062+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:11:08.057+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:11:08.063+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:11:08.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.049 seconds
+[2024-01-06T15:11:38.352+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:11:38.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:11:38.355+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:11:38.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:11:38.374+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:11:38.370+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:11:38.375+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:11:38.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.052 seconds
+[2024-01-06T15:12:08.676+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:08.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:12:08.678+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:12:08.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:08.696+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:12:08.692+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:12:08.697+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:08.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.051 seconds
+[2024-01-06T15:12:27.951+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:27.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:12:27.962+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:12:27.958+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:28.020+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:12:28.008+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:12:28.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:28.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.153 seconds
+[2024-01-06T15:12:58.451+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:58.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:12:58.454+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:12:58.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:58.471+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:12:58.467+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/Data_Clean.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Data_Clean.py", line 16, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 497, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Count Cleaner' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-01-06T15:12:58.472+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:12:58.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.050 seconds
+[2024-01-06T15:13:15.667+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:13:15.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:13:15.670+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:13:15.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:13:15.702+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:13:15.835+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:13:15.834+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:CountCleaner
+[2024-01-06T15:13:15.847+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:13:15.846+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:CountCleaner
+[2024-01-06T15:13:15.854+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:13:15.854+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:CountCleaner
+[2024-01-06T15:13:15.855+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:13:15.855+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:13:15.869+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:13:15.868+0000] {dag.py:3055} INFO - Creating ORM DAG for CountCleaner
+[2024-01-06T15:13:15.882+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:13:15.881+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:13:15.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.241 seconds
+[2024-01-06T15:27:03.791+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:27:03.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:27:03.805+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:03.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:27:04.013+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:27:04.550+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:04.550+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:CountCleaner
+[2024-01-06T15:27:04.581+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:04.580+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:CountCleaner
+[2024-01-06T15:27:04.612+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:04.612+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:CountCleaner
+[2024-01-06T15:27:04.613+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:04.612+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:27:04.626+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:04.625+0000] {dag.py:3055} INFO - Creating ORM DAG for CountCleaner
+[2024-01-06T15:27:04.665+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:04.665+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:27:04.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.927 seconds
+[2024-01-06T15:27:35.024+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:27:35.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:27:35.026+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:35.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:27:35.053+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:27:35.257+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:35.257+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:27:35.310+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:27:35.309+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:27:35.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.391 seconds
+[2024-01-06T15:28:05.637+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:28:05.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:28:05.641+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:28:05.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:28:05.674+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:28:05.811+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:28:05.811+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:28:05.844+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:28:05.843+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:28:05.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.237 seconds
+[2024-01-06T15:28:36.179+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:28:36.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:28:36.182+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:28:36.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:28:36.220+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:28:36.394+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:28:36.394+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:28:36.429+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:28:36.428+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:28:36.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.283 seconds
+[2024-01-06T15:29:06.695+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:29:06.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:29:06.697+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:29:06.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:29:06.723+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:29:06.857+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:29:06.856+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:29:06.881+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:29:06.880+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:29:06.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.219 seconds
+[2024-01-06T15:29:37.144+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:29:37.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:29:37.146+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:29:37.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:29:37.193+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:29:37.341+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:29:37.341+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:29:37.370+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:29:37.370+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:29:37.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.258 seconds
+[2024-01-06T15:30:07.661+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:07.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:30:07.663+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:07.663+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:07.690+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:07.811+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:07.811+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:30:07.836+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:07.836+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:30:07.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.214 seconds
+[2024-01-06T15:30:10.041+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:10.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:30:10.043+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:10.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:10.074+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:10.100+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:10.099+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:30:10.144+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:10.143+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:30:10.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.153 seconds
+[2024-01-06T15:30:40.509+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:40.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:30:40.512+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:40.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:40.538+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:30:40.672+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:40.672+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:30:40.704+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:30:40.704+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T15:30:00+00:00, run_after=2024-01-06T16:30:00+00:00
+[2024-01-06T15:30:40.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.225 seconds
+[2024-01-06T15:31:10.958+0000] {processor.py:161} INFO - Started process (PID=316) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:31:10.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:31:10.961+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:31:10.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:31:10.986+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:31:11.200+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:31:11.193+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:31:11.262+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:31:11.262+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:31:11.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.340 seconds
+[2024-01-06T15:31:41.515+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:31:41.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:31:41.517+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:31:41.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:31:41.582+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:36:50.830+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:36:50.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:36:50.835+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:36:50.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:36:50.919+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:36:51.516+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:36:51.515+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:CountCleaner
+[2024-01-06T15:36:51.562+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:36:51.557+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:CountCleaner
+[2024-01-06T15:36:51.603+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:36:51.603+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:CountCleaner
+[2024-01-06T15:36:51.608+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:36:51.608+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:36:51.662+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:36:51.662+0000] {dag.py:3055} INFO - Creating ORM DAG for CountCleaner
+[2024-01-06T15:36:51.701+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:36:51.700+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:36:51.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.944 seconds
+[2024-01-06T15:37:22.292+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:37:22.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:37:22.303+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:37:22.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:37:22.584+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:37:22.801+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:37:22.801+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:37:22.852+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:37:22.851+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:37:22.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.617 seconds
+[2024-01-06T15:37:53.330+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:37:53.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:37:53.333+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:37:53.333+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:37:53.370+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:37:53.613+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:37:53.613+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:37:53.652+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:37:53.652+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:37:53.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.359 seconds
+[2024-01-06T15:38:23.939+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:38:23.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:38:23.941+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:38:23.941+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:38:23.975+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:38:24.168+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:38:24.167+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:38:24.200+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:38:24.199+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:38:24.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.299 seconds
+[2024-01-06T15:38:54.539+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:38:54.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:38:54.544+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:38:54.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:38:54.575+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:38:54.810+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:38:54.810+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:38:54.844+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:38:54.844+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:38:54.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.338 seconds
+[2024-01-06T15:39:25.163+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:39:25.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:39:25.176+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:39:25.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:39:25.210+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:39:25.409+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:39:25.409+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:39:25.468+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:39:25.465+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:39:25.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.353 seconds
+[2024-01-06T15:39:55.774+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:39:55.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:39:55.776+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:39:55.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:39:55.807+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:39:55.928+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:39:55.928+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:39:55.953+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:39:55.953+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:39:55.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.207 seconds
+[2024-01-06T15:40:26.211+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:40:26.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:40:26.215+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:40:26.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:40:26.245+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:40:26.414+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:40:26.413+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:40:26.441+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:40:26.440+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:40:26.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.293 seconds
+[2024-01-06T15:40:56.755+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:40:56.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:40:56.759+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:40:56.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:40:56.798+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:40:57.063+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:40:57.063+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:40:57.096+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:40:57.095+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:40:57.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.373 seconds
+[2024-01-06T15:41:27.359+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:41:27.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:41:27.365+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:41:27.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:41:27.396+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:41:27.529+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:41:27.529+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:41:27.562+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:41:27.561+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:41:27.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.232 seconds
+[2024-01-06T15:41:57.913+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:41:57.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:41:57.924+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:41:57.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:41:57.991+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:41:58.217+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:41:58.217+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:41:58.279+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:41:58.279+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:41:58.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.451 seconds
+[2024-01-06T15:42:28.723+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:42:28.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:42:28.726+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:42:28.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:42:28.761+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:42:28.926+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:42:28.925+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:42:28.958+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:42:28.958+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:42:28.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.286 seconds
+[2024-01-06T15:42:59.243+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:42:59.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:42:59.245+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:42:59.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:42:59.274+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:42:59.421+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:42:59.421+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:42:59.463+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:42:59.463+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:42:59.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.253 seconds
+[2024-01-06T15:43:29.785+0000] {processor.py:161} INFO - Started process (PID=382) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:43:29.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:43:29.788+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:43:29.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:43:29.817+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:43:29.977+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:43:29.976+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:43:30.009+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:43:30.009+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:43:30.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.257 seconds
+[2024-01-06T15:44:00.268+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:44:00.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:44:00.274+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:44:00.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:44:00.299+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:44:00.438+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:44:00.437+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:44:00.465+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:44:00.465+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:44:00.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.227 seconds
+[2024-01-06T15:44:30.703+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:44:30.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:44:30.705+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:44:30.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:44:30.734+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:44:30.863+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:44:30.863+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:44:30.893+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:44:30.893+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:44:30.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.227 seconds
+[2024-01-06T15:45:01.148+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:45:01.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:45:01.150+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:45:01.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:45:01.178+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:45:01.311+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:45:01.311+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:01.338+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:45:01.338+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:45:01.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.237 seconds
+[2024-01-06T15:45:31.713+0000] {processor.py:161} INFO - Started process (PID=444) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:45:31.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:45:31.715+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:45:31.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:45:31.744+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:45:31.943+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:45:31.943+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:31.992+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:45:31.990+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:45:32.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.326 seconds
+[2024-01-06T15:46:02.267+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:46:02.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:46:02.269+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:46:02.269+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:46:02.296+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:46:02.434+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:46:02.433+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:02.460+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:46:02.459+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:46:02.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.221 seconds
+[2024-01-06T15:46:32.713+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:46:32.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:46:32.717+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:46:32.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:46:32.760+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:46:33.032+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:46:33.032+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:33.105+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:46:33.105+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:46:33.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.465 seconds
+[2024-01-06T15:47:03.459+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:47:03.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:47:03.462+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:47:03.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:47:03.504+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:47:03.655+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:47:03.655+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:03.682+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:47:03.682+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:47:03.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.252 seconds
+[2024-01-06T15:47:33.967+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:47:33.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:47:33.975+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:47:33.975+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:47:34.062+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:47:34.571+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:47:34.571+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:34.736+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:47:34.736+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:47:34.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.888 seconds
+[2024-01-06T15:48:05.203+0000] {processor.py:161} INFO - Started process (PID=523) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:48:05.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:48:05.206+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:48:05.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:48:05.242+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:48:05.455+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:48:05.455+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:48:05.492+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:48:05.491+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:48:05.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.352 seconds
+[2024-01-06T15:48:35.747+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:48:35.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:48:35.749+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:48:35.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:48:35.787+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:48:35.943+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:48:35.943+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:48:35.989+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:48:35.989+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:48:36.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.294 seconds
+[2024-01-06T15:49:06.305+0000] {processor.py:161} INFO - Started process (PID=556) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:49:06.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:49:06.309+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:49:06.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:49:06.361+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:49:06.492+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:49:06.492+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:49:06.546+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:49:06.546+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:49:06.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.279 seconds
+[2024-01-06T15:49:36.808+0000] {processor.py:161} INFO - Started process (PID=571) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:49:36.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:49:36.810+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:49:36.810+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:49:36.850+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:49:36.996+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:49:36.995+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:49:37.062+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:49:37.062+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:49:37.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.298 seconds
+[2024-01-06T15:50:07.340+0000] {processor.py:161} INFO - Started process (PID=588) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:50:07.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:50:07.342+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:50:07.342+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:50:07.369+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:50:07.548+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:50:07.548+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:50:07.609+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:50:07.609+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:50:07.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.323 seconds
+[2024-01-06T15:50:37.885+0000] {processor.py:161} INFO - Started process (PID=604) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:50:37.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:50:37.888+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:50:37.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:50:37.925+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:50:38.077+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:50:38.077+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:50:38.119+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:50:38.119+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:50:38.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.287 seconds
+[2024-01-06T15:51:08.374+0000] {processor.py:161} INFO - Started process (PID=620) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:51:08.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:51:08.377+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:51:08.377+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:51:08.411+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:51:08.553+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:51:08.553+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:51:08.581+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:51:08.581+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:51:08.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.235 seconds
+[2024-01-06T15:51:38.859+0000] {processor.py:161} INFO - Started process (PID=636) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:51:38.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:51:38.863+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:51:38.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:51:38.918+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:51:39.052+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:51:39.052+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:51:39.082+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:51:39.082+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:51:39.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.250 seconds
+[2024-01-06T15:52:09.318+0000] {processor.py:161} INFO - Started process (PID=652) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:52:09.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:52:09.323+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:52:09.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:52:09.350+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:52:09.506+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:52:09.505+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:52:09.539+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:52:09.539+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:52:09.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.249 seconds
+[2024-01-06T15:52:39.783+0000] {processor.py:161} INFO - Started process (PID=668) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:52:39.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:52:39.786+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:52:39.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:52:39.814+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:52:39.947+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:52:39.947+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:52:39.979+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:52:39.979+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:52:40.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.227 seconds
+[2024-01-06T15:53:10.307+0000] {processor.py:161} INFO - Started process (PID=684) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:53:10.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:53:10.318+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:53:10.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:53:10.394+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:53:10.630+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:53:10.630+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:53:10.671+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:53:10.671+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:53:10.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.424 seconds
+[2024-01-06T15:53:40.955+0000] {processor.py:161} INFO - Started process (PID=699) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:53:40.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:53:40.959+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:53:40.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:53:40.991+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:53:41.311+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:53:41.311+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:53:41.370+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:53:41.370+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:53:41.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.460 seconds
+[2024-01-06T15:54:11.667+0000] {processor.py:161} INFO - Started process (PID=715) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:54:11.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:54:11.671+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:54:11.670+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:54:11.702+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:54:11.893+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:54:11.893+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:54:11.930+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:54:11.929+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:54:11.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.292 seconds
+[2024-01-06T15:54:42.219+0000] {processor.py:161} INFO - Started process (PID=732) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:54:42.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:54:42.228+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:54:42.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:54:42.270+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:54:42.749+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:54:42.748+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:54:42.837+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:54:42.836+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:54:42.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.719 seconds
+[2024-01-06T15:55:13.082+0000] {processor.py:161} INFO - Started process (PID=749) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:55:13.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:55:13.086+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:55:13.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:55:13.116+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:55:13.403+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:55:13.403+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:55:13.455+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:55:13.455+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:55:13.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.458 seconds
+[2024-01-06T15:55:43.931+0000] {processor.py:161} INFO - Started process (PID=765) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:55:43.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:55:43.934+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:55:43.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:55:43.957+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:55:44.094+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:55:44.093+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:55:44.119+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:55:44.119+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:55:44.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.226 seconds
+[2024-01-06T15:56:14.403+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:56:14.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:56:14.406+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:56:14.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:56:14.433+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:56:14.603+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:56:14.603+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:56:14.651+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:56:14.651+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:56:14.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.295 seconds
+[2024-01-06T15:56:44.884+0000] {processor.py:161} INFO - Started process (PID=797) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:56:44.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:56:44.886+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:56:44.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:56:44.940+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:56:45.087+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:56:45.086+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:56:45.112+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:56:45.111+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:56:45.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.265 seconds
+[2024-01-06T15:57:15.383+0000] {processor.py:161} INFO - Started process (PID=813) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:57:15.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:57:15.388+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:57:15.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:57:15.449+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:57:15.604+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:57:15.604+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:57:15.630+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:57:15.630+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:57:15.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.284 seconds
+[2024-01-06T15:57:45.910+0000] {processor.py:161} INFO - Started process (PID=830) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:57:45.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:57:45.915+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:57:45.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:57:45.941+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:57:46.068+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:57:46.068+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:57:46.094+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:57:46.094+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:57:46.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.215 seconds
+[2024-01-06T15:58:16.349+0000] {processor.py:161} INFO - Started process (PID=847) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:58:16.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:58:16.351+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:58:16.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:58:16.377+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:58:16.542+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:58:16.542+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:58:16.568+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:58:16.568+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:58:16.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.250 seconds
+[2024-01-06T15:58:46.818+0000] {processor.py:161} INFO - Started process (PID=863) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:58:46.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:58:46.825+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:58:46.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:58:46.881+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:58:47.078+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:58:47.078+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:58:47.134+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:58:47.134+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:58:47.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.350 seconds
+[2024-01-06T15:59:17.402+0000] {processor.py:161} INFO - Started process (PID=879) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:59:17.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:59:17.404+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:59:17.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:59:17.445+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:59:17.901+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:59:17.900+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:59:17.982+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:59:17.982+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:59:18.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.673 seconds
+[2024-01-06T15:59:48.313+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:59:48.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Data_Clean.py for tasks to queue
+[2024-01-06T15:59:48.316+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:59:48.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:59:48.359+0000] {processor.py:840} INFO - DAG(s) 'CountCleaner' retrieved from /opt/airflow/dags/Data_Clean.py
+[2024-01-06T15:59:48.514+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:59:48.514+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:59:48.539+0000] {logging_mixin.py:188} INFO - [2024-01-06T15:59:48.539+0000] {dag.py:3820} INFO - Setting next_dagrun for CountCleaner to 2024-01-06T16:30:00+00:00, run_after=2024-01-06T17:30:00+00:00
+[2024-01-06T15:59:48.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Data_Clean.py took 0.254 seconds

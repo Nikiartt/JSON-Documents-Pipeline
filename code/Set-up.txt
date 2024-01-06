@@ -1,0 +1,38 @@
+---------Set-up---------
+--Download the entire repository.
+--Set up docker desktop.
+--[Optional]Set-up docker Postman.
+--Open the PowerShell in the code folder.
+--Run the command: docker build --no-cache -t api-ingest . #This will create the image from the main.py file.
+--Run the second command: docker-compose -f docker-compose-pipeline.yaml up --force-recreate  # This will create the pipeline container (all the necessary images will be automatically downloaded). 
+--Open in browser http://127.0.0.1:8888/
+--Provide the token (you can find it in logs of the jupyter/pyspark-notebook image)
+--Run all code parts.
+--Go to http://localhost:8081/ 
+--Login: Username: admin  Password: tribes 
+--Create a new database "docstreaming".
+--In "docstreaming" create a new collection of "invoices".
+--Using Postman or any other application send to http://127.0.0.1:80/post_user POST request with JSON with username and password.
+--Example:
+	{
+	    "username": "1234",
+	    "password": "1234"
+	}
+--Using these credentials send a POST request to http://127.0.0.1:80/token and copy the token string.
+--Open Asynchronous_api_client.py in the main project directory (not in the code directory)
+--Replace the token in the 12th line (don't forget that the token expires in 15 minutes).
+--Test pipeline with Asynchronous_api_client.py (all necessary libraries in ClientRequirements.txt )
+--[Optinal]You can change token expiration time as well as the secret key and other parameters in docker-compose-pipe.yml
+--Visit the http://localhost:8083 and connect to Postgres using server: postgres , username: airflow, password: airflow, database: postgres
+--Visit http://localhost:8080 and use username: airflow, password: airflow to connect to the Airflow user interface. 
+--Go to Admin and create the connection with Connection Id:postgres_default , Connection Type:Postgres , Host:postgres , Username:airflow , Password:airflow and Port:5432 
+--Run both dags (User_counter and CountCleaner) #After one minute in Postgres will appear a new table users_count where will be information about registered users.   
+
+These commands can help you to manage topics, as well as to create in 2 shelLs produces and consumer for testing the Kafka
+cd /opt/bitnami/kafka/bin
+./kafka-topics.sh --create --topic ingestion-topic --bootstrap-server localhost:9092
+./kafka-topics.sh --create --topic spark-output --bootstrap-server localhost:9092
+./kafka-console-consumer.sh --topic ingestion-topic --bootstrap-server localhost:9092
+./kafka-console-consumer.sh --topic spark-output --bootstrap-server localhost:9092
+./kafka-console-producer.sh --topic ingestion-topic --bootstrap-server localhost:9092
+./kafka-topics.sh --list --bootstrap-server localhost:9092

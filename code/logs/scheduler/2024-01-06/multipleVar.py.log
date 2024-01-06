@@ -1,0 +1,636 @@
+[2024-01-06T12:25:55.504+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:25:55.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:25:55.511+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:25:55.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:25:55.683+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:25:56.773+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:25:56.773+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:25:57.037+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:25:57.037+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:25:57.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 1.686 seconds
+[2024-01-06T12:26:28.103+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:26:28.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:26:28.106+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:26:28.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:26:28.137+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:26:28.314+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:26:28.314+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:26:28.352+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:26:28.352+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:26:28.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.305 seconds
+[2024-01-06T12:36:24.148+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:36:24.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:36:24.150+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:36:24.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:36:24.266+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:36:24.709+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:36:24.708+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:36:24.741+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:36:24.741+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:36:24.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.632 seconds
+[2024-01-06T12:36:55.171+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:36:55.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:36:55.174+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:36:55.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:36:55.207+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:36:55.342+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:36:55.342+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:36:55.371+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:36:55.370+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:36:55.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.232 seconds
+[2024-01-06T12:37:25.688+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:37:25.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:37:25.691+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:37:25.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:37:25.724+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:37:25.858+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:37:25.857+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:37:25.889+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:37:25.889+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:37:25.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.250 seconds
+[2024-01-06T12:37:56.236+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:37:56.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:37:56.241+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:37:56.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:37:56.270+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:37:56.428+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:37:56.427+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:37:56.460+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:37:56.460+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:37:56.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.262 seconds
+[2024-01-06T12:38:26.857+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:38:26.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:38:26.862+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:38:26.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:38:26.918+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:38:27.358+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:38:27.358+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:38:27.494+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:38:27.488+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:38:27.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.699 seconds
+[2024-01-06T12:38:58.235+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:38:58.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:38:58.248+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:38:58.248+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:38:58.299+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:38:58.530+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:38:58.530+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:38:58.560+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:38:58.560+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:38:58.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.366 seconds
+[2024-01-06T12:39:29.026+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:39:29.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:39:29.032+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:39:29.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:39:29.074+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:39:29.327+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:39:29.327+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:39:29.389+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:39:29.389+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:39:29.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.415 seconds
+[2024-01-06T12:39:59.745+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:39:59.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:39:59.749+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:39:59.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:39:59.790+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:39:59.963+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:39:59.963+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:40:00.013+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:40:00.013+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:40:00.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.326 seconds
+[2024-01-06T12:40:30.415+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:40:30.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:40:30.418+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:40:30.418+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:40:30.447+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:40:30.655+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:40:30.655+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:40:30.687+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:40:30.687+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:40:30.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.314 seconds
+[2024-01-06T12:41:01.179+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:41:01.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:41:01.183+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:41:01.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:41:01.337+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:41:01.599+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:41:01.599+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:41:01.631+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:41:01.631+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:41:01.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.492 seconds
+[2024-01-06T12:41:32.030+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:41:32.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:41:32.034+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:41:32.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:41:32.061+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:41:32.217+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:41:32.217+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:41:32.248+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:41:32.248+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:41:32.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.269 seconds
+[2024-01-06T12:42:02.588+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:42:02.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:42:02.591+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:42:02.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:42:02.626+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:42:02.770+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:42:02.770+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:42:02.796+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:42:02.795+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:42:02.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.243 seconds
+[2024-01-06T12:42:33.126+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:42:33.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:42:33.129+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:42:33.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:42:33.161+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:42:33.298+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:42:33.298+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:42:33.326+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:42:33.325+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:42:33.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.234 seconds
+[2024-01-06T12:43:03.640+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:43:03.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:43:03.643+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:43:03.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:43:03.672+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:43:03.813+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:43:03.813+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:43:03.844+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:43:03.844+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:43:03.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.237 seconds
+[2024-01-06T12:43:34.158+0000] {processor.py:161} INFO - Started process (PID=488) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:43:34.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:43:34.161+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:43:34.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:43:34.199+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:43:34.387+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:43:34.386+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:43:34.427+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:43:34.427+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:43:34.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.318 seconds
+[2024-01-06T12:44:04.807+0000] {processor.py:161} INFO - Started process (PID=513) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:44:04.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:44:04.810+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:44:04.810+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:44:04.843+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:44:05.010+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:44:05.010+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:44:05.037+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:44:05.037+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:44:05.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.265 seconds
+[2024-01-06T12:44:35.385+0000] {processor.py:161} INFO - Started process (PID=534) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:44:35.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:44:35.389+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:44:35.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:44:35.418+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:44:35.565+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:44:35.564+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:44:35.592+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:44:35.592+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:44:35.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.243 seconds
+[2024-01-06T12:45:05.937+0000] {processor.py:161} INFO - Started process (PID=560) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:45:05.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:45:05.944+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:45:05.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:45:06.017+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:45:06.208+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:45:06.208+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:45:06.249+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:45:06.249+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:45:06.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.355 seconds
+[2024-01-06T12:45:37.108+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:45:37.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:45:37.125+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:45:37.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:45:37.267+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:45:37.886+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:45:37.886+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:45:38.129+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:45:38.129+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:45:38.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 1.134 seconds
+[2024-01-06T12:46:08.727+0000] {processor.py:161} INFO - Started process (PID=607) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:46:08.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:46:08.730+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:46:08.729+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:46:08.771+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:46:08.982+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:46:08.981+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:46:09.015+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:46:09.015+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:46:09.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.318 seconds
+[2024-01-06T12:46:39.368+0000] {processor.py:161} INFO - Started process (PID=627) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:46:39.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:46:39.371+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:46:39.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:46:39.409+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:46:39.591+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:46:39.590+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:46:39.627+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:46:39.626+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:46:39.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.360 seconds
+[2024-01-06T12:47:10.345+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:47:10.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:47:10.348+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:47:10.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:47:10.451+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:47:10.743+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:47:10.742+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:47:10.824+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:47:10.824+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:47:10.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.597 seconds
+[2024-01-06T12:47:41.456+0000] {processor.py:161} INFO - Started process (PID=679) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:47:41.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:47:41.464+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:47:41.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:47:41.504+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:47:41.690+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:47:41.690+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:47:41.720+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:47:41.720+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:47:41.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.321 seconds
+[2024-01-06T12:48:12.268+0000] {processor.py:161} INFO - Started process (PID=704) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:48:12.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:48:12.272+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:48:12.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:48:12.342+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:48:12.697+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:48:12.697+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:48:12.801+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:48:12.801+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:48:12.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.668 seconds
+[2024-01-06T12:48:43.140+0000] {processor.py:161} INFO - Started process (PID=725) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:48:43.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:48:43.146+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:48:43.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:48:43.204+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:48:43.411+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:48:43.410+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:48:43.458+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:48:43.457+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:48:43.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.391 seconds
+[2024-01-06T12:49:13.888+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:49:13.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:49:13.892+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:49:13.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:49:13.930+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:49:14.134+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:49:14.133+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:49:14.173+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:49:14.173+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:49:14.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.333 seconds
+[2024-01-06T12:49:44.573+0000] {processor.py:161} INFO - Started process (PID=772) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:49:44.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:49:44.578+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:49:44.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:49:44.617+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:49:44.816+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:49:44.816+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:49:44.888+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:49:44.887+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:49:44.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.360 seconds
+[2024-01-06T12:50:15.397+0000] {processor.py:161} INFO - Started process (PID=797) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:50:15.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:50:15.399+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:50:15.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:50:15.446+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:50:15.751+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:50:15.751+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:50:15.796+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:50:15.796+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:50:15.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.452 seconds
+[2024-01-06T12:50:46.332+0000] {processor.py:161} INFO - Started process (PID=818) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:50:46.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:50:46.371+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:50:46.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:50:46.479+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:50:46.865+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:50:46.862+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:50:46.980+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:50:46.980+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:50:47.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.796 seconds
+[2024-01-06T12:51:17.676+0000] {processor.py:161} INFO - Started process (PID=843) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:51:17.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:51:17.679+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:51:17.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:51:17.714+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:51:17.870+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:51:17.870+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:51:17.904+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:51:17.903+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:51:17.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.287 seconds
+[2024-01-06T12:51:48.327+0000] {processor.py:161} INFO - Started process (PID=864) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:51:48.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:51:48.329+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:51:48.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:51:48.371+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:51:48.608+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:51:48.608+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:51:48.641+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:51:48.641+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:51:48.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.356 seconds
+[2024-01-06T12:52:18.955+0000] {processor.py:161} INFO - Started process (PID=889) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:52:18.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:52:18.958+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:52:18.958+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:52:18.992+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:52:19.301+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:52:19.301+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:52:19.353+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:52:19.352+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:52:19.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.445 seconds
+[2024-01-06T12:52:49.665+0000] {processor.py:161} INFO - Started process (PID=911) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:52:49.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:52:49.670+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:52:49.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:52:49.706+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:52:49.916+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:52:49.916+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:52:49.959+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:52:49.959+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:52:49.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.336 seconds
+[2024-01-06T12:53:20.293+0000] {processor.py:161} INFO - Started process (PID=936) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:53:20.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:53:20.296+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:53:20.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:53:20.331+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:53:20.510+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:53:20.510+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:53:20.538+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:53:20.538+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:53:20.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.283 seconds
+[2024-01-06T12:53:50.853+0000] {processor.py:161} INFO - Started process (PID=957) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:53:50.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:53:50.857+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:53:50.856+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:53:50.887+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:53:51.058+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:53:51.057+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:53:51.090+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:53:51.090+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:53:51.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.280 seconds
+[2024-01-06T12:54:21.478+0000] {processor.py:161} INFO - Started process (PID=981) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:54:21.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:54:21.489+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:54:21.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:54:21.578+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:54:21.784+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:54:21.783+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:54:21.817+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:54:21.816+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:54:21.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.381 seconds
+[2024-01-06T12:54:52.169+0000] {processor.py:161} INFO - Started process (PID=1002) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:54:52.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:54:52.173+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:54:52.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:54:52.205+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:54:52.443+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:54:52.443+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:54:52.475+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:54:52.475+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:54:52.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.350 seconds
+[2024-01-06T12:55:22.802+0000] {processor.py:161} INFO - Started process (PID=1027) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:55:22.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:55:22.807+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:55:22.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:55:22.846+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:55:23.094+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:55:23.094+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:55:23.122+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:55:23.122+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:55:23.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.354 seconds
+[2024-01-06T12:55:53.441+0000] {processor.py:161} INFO - Started process (PID=1048) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:55:53.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:55:53.443+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:55:53.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:55:53.497+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:55:53.659+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:55:53.659+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:55:53.688+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:55:53.688+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:55:53.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.287 seconds
+[2024-01-06T12:56:24.010+0000] {processor.py:161} INFO - Started process (PID=1073) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:56:24.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:56:24.014+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:56:24.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:56:24.046+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:56:24.189+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:56:24.189+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:56:24.220+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:56:24.220+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:56:24.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.259 seconds
+[2024-01-06T12:56:54.642+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:56:54.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:56:54.647+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:56:54.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:56:54.680+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:56:54.836+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:56:54.836+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:56:54.866+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:56:54.866+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:56:54.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.260 seconds
+[2024-01-06T12:57:25.227+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:57:25.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:57:25.236+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:57:25.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:57:25.287+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:57:25.527+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:57:25.526+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:57:25.558+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:57:25.558+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:57:25.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.375 seconds
+[2024-01-06T12:57:55.924+0000] {processor.py:161} INFO - Started process (PID=1138) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:57:55.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:57:55.928+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:57:55.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:57:55.961+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:57:56.145+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:57:56.144+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:57:56.177+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:57:56.177+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:57:56.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.320 seconds
+[2024-01-06T12:58:26.573+0000] {processor.py:161} INFO - Started process (PID=1162) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:58:26.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:58:26.576+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:58:26.575+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:58:26.614+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:58:26.865+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:58:26.864+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:58:26.904+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:58:26.903+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:58:26.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.383 seconds
+[2024-01-06T12:58:57.274+0000] {processor.py:161} INFO - Started process (PID=1184) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:58:57.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:58:57.277+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:58:57.277+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:58:57.307+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:58:57.498+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:58:57.498+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:58:57.529+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:58:57.529+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:58:57.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.287 seconds
+[2024-01-06T12:59:27.860+0000] {processor.py:161} INFO - Started process (PID=1209) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:59:27.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:59:27.864+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:59:27.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:59:27.902+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:59:28.135+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:59:28.135+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:59:28.188+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:59:28.188+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:59:28.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.369 seconds
+[2024-01-06T12:59:58.593+0000] {processor.py:161} INFO - Started process (PID=1228) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:59:58.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T12:59:58.597+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:59:58.596+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:59:58.664+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T12:59:58.889+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:59:58.889+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T12:59:58.925+0000] {logging_mixin.py:188} INFO - [2024-01-06T12:59:58.925+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T12:59:58.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.389 seconds
+[2024-01-06T13:00:29.586+0000] {processor.py:161} INFO - Started process (PID=1253) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:00:29.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T13:00:29.607+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:00:29.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:00:29.811+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:00:30.811+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:00:30.811+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T13:00:31.015+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:00:31.014+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T13:00:31.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 1.528 seconds
+[2024-01-06T13:01:01.445+0000] {processor.py:161} INFO - Started process (PID=1275) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:01:01.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T13:01:01.448+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:01:01.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:01:01.517+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:01:01.977+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:01:01.977+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T13:01:02.101+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:01:02.100+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T13:01:02.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.715 seconds
+[2024-01-06T13:01:33.285+0000] {processor.py:161} INFO - Started process (PID=1299) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:01:33.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T13:01:33.372+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:01:33.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:01:34.518+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:01:47.493+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:01:47.434+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T13:01:50.439+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:01:50.402+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T13:03:10.638+0000] {processor.py:161} INFO - Started process (PID=1316) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:03:10.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T13:03:10.714+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:03:10.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:03:11.324+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:03:25.908+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:03:25.907+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T13:03:26.248+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:03:26.227+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T13:03:26.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 16.347 seconds
+[2024-01-06T13:51:55.570+0000] {processor.py:161} INFO - Started process (PID=1350) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:51:55.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T13:51:55.599+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:51:55.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:51:56.111+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T13:51:59.545+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:51:59.544+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T13:51:59.729+0000] {logging_mixin.py:188} INFO - [2024-01-06T13:51:59.722+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T13:52:00.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 4.503 seconds
+[2024-01-06T14:02:24.228+0000] {processor.py:161} INFO - Started process (PID=1384) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:02:24.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:02:24.264+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:02:24.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:02:24.642+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:02:31.599+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:02:31.598+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:02:31.851+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:02:31.840+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:02:32.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 7.966 seconds
+[2024-01-06T14:03:02.249+0000] {processor.py:161} INFO - Started process (PID=1463) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:03:02.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:03:02.251+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:03:02.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:03:02.291+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:03:02.433+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:03:02.433+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:03:02.466+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:03:02.465+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:03:02.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.259 seconds
+[2024-01-06T14:03:32.982+0000] {processor.py:161} INFO - Started process (PID=1487) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:03:32.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:03:32.987+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:03:32.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:03:33.010+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:03:33.156+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:03:33.156+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:03:33.200+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:03:33.185+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:03:33.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.259 seconds
+[2024-01-06T14:04:03.504+0000] {processor.py:161} INFO - Started process (PID=1512) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:04:03.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:04:03.507+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:04:03.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:04:03.540+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:04:03.717+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:04:03.717+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:04:03.750+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:04:03.749+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:04:03.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.283 seconds
+[2024-01-06T14:04:34.088+0000] {processor.py:161} INFO - Started process (PID=1532) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:04:34.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:04:34.090+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:04:34.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:04:34.107+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:04:34.242+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:04:34.242+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:04:34.266+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:04:34.265+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:04:34.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.205 seconds
+[2024-01-06T14:05:04.578+0000] {processor.py:161} INFO - Started process (PID=1557) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:05:04.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:05:04.581+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:05:04.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:05:04.605+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:05:04.758+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:05:04.757+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:05:04.786+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:05:04.785+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:05:04.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.247 seconds
+[2024-01-06T14:05:35.110+0000] {processor.py:161} INFO - Started process (PID=1578) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:05:35.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:05:35.113+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:05:35.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:05:35.136+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:05:35.301+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:05:35.301+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:05:35.335+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:05:35.335+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:05:35.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.272 seconds
+[2024-01-06T14:06:05.686+0000] {processor.py:161} INFO - Started process (PID=1603) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:06:05.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:06:05.689+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:06:05.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:06:05.713+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:06:05.864+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:06:05.864+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:06:05.901+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:06:05.901+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:06:05.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.260 seconds
+[2024-01-06T14:06:36.215+0000] {processor.py:161} INFO - Started process (PID=1623) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:06:36.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:06:36.217+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:06:36.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:06:36.236+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:06:36.369+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:06:36.368+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:06:36.392+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:06:36.391+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:06:36.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.207 seconds
+[2024-01-06T14:07:06.756+0000] {processor.py:161} INFO - Started process (PID=1648) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:07:06.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:07:06.760+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:07:06.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:07:06.781+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:07:06.913+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:07:06.913+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:07:06.941+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:07:06.940+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:07:06.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.221 seconds
+[2024-01-06T14:07:37.312+0000] {processor.py:161} INFO - Started process (PID=1668) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:07:37.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:07:37.315+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:07:37.315+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:07:37.337+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:07:37.491+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:07:37.491+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:07:37.523+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:07:37.523+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:07:37.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.248 seconds
+[2024-01-06T14:08:07.823+0000] {processor.py:161} INFO - Started process (PID=1693) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:08:07.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:08:07.825+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:08:07.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:08:07.848+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:08:07.997+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:08:07.997+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:08:08.040+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:08:08.040+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:08:08.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.266 seconds
+[2024-01-06T14:08:38.391+0000] {processor.py:161} INFO - Started process (PID=1712) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:08:38.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:08:38.403+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:08:38.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:08:38.444+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:08:38.761+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:08:38.761+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:08:38.792+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:08:38.792+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:08:38.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.466 seconds
+[2024-01-06T14:09:09.206+0000] {processor.py:161} INFO - Started process (PID=1739) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:09:09.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:09:09.221+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:09:09.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:09:09.347+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:09:09.610+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:09:09.610+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:09:09.644+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:09:09.644+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:09:09.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.500 seconds
+[2024-01-06T14:09:40.007+0000] {processor.py:161} INFO - Started process (PID=1760) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:09:40.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:09:40.012+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:09:40.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:09:40.047+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:09:40.271+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:09:40.271+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:09:40.298+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:09:40.298+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:09:40.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.354 seconds
+[2024-01-06T14:10:10.764+0000] {processor.py:161} INFO - Started process (PID=1783) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:10:10.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:10:10.766+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:10:10.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:10:10.789+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:10:10.967+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:10:10.967+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:10:11.010+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:10:11.010+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:10:11.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.290 seconds
+[2024-01-06T14:10:41.365+0000] {processor.py:161} INFO - Started process (PID=1805) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:10:41.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:10:41.368+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:10:41.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:10:41.392+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:10:41.585+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:10:41.584+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:10:41.621+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:10:41.620+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:10:41.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.345 seconds
+[2024-01-06T14:11:12.051+0000] {processor.py:161} INFO - Started process (PID=1830) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:11:12.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:11:12.063+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:11:12.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:11:12.105+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:11:12.280+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:11:12.279+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:11:12.309+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:11:12.309+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:11:12.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.295 seconds
+[2024-01-06T14:11:42.629+0000] {processor.py:161} INFO - Started process (PID=1850) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:11:42.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:11:42.634+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:11:42.633+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:11:42.651+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:11:42.817+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:11:42.817+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:11:42.851+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:11:42.851+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:11:42.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.259 seconds
+[2024-01-06T14:12:13.181+0000] {processor.py:161} INFO - Started process (PID=1875) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:12:13.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:12:13.184+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:12:13.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:12:13.206+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:12:13.340+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:12:13.340+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:12:13.365+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:12:13.365+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:12:13.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.224 seconds
+[2024-01-06T14:12:43.776+0000] {processor.py:161} INFO - Started process (PID=1896) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:12:43.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:12:43.782+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:12:43.781+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:12:43.807+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:12:44.074+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:12:44.073+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:12:44.139+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:12:44.135+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:12:44.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.428 seconds
+[2024-01-06T14:13:14.500+0000] {processor.py:161} INFO - Started process (PID=1921) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:13:14.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:13:14.503+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:13:14.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:13:14.519+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:13:14.745+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:13:14.745+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:13:14.768+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:13:14.768+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:13:14.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.304 seconds
+[2024-01-06T14:13:45.087+0000] {processor.py:161} INFO - Started process (PID=1942) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:13:45.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:13:45.090+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:13:45.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:13:45.111+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:13:45.267+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:13:45.267+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:13:45.300+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:13:45.300+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:13:45.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.248 seconds
+[2024-01-06T14:14:15.609+0000] {processor.py:161} INFO - Started process (PID=1967) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:14:15.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:14:15.611+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:14:15.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:14:15.633+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:14:15.777+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:14:15.777+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:14:15.800+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:14:15.800+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:14:15.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.222 seconds
+[2024-01-06T14:14:46.233+0000] {processor.py:161} INFO - Started process (PID=1989) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:14:46.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:14:46.242+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:14:46.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:14:46.295+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:14:46.709+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:14:46.708+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:14:46.759+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:14:46.759+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:14:46.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.623 seconds
+[2024-01-06T14:15:17.104+0000] {processor.py:161} INFO - Started process (PID=2014) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:15:17.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:15:17.109+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:15:17.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:15:17.133+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:15:17.283+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:15:17.283+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:15:17.308+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:15:17.308+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:15:17.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.243 seconds
+[2024-01-06T14:15:47.603+0000] {processor.py:161} INFO - Started process (PID=2035) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:15:47.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:15:47.605+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:15:47.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:15:47.645+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:15:47.865+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:15:47.865+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:15:47.900+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:15:47.899+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:15:47.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.328 seconds
+[2024-01-06T14:16:18.637+0000] {processor.py:161} INFO - Started process (PID=2059) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:16:18.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:16:18.643+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:16:18.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:16:18.721+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:16:19.215+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:16:19.214+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:16:19.276+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:16:19.276+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:16:19.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.754 seconds
+[2024-01-06T14:16:49.966+0000] {processor.py:161} INFO - Started process (PID=2080) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:16:49.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:16:49.978+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:16:49.977+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:16:50.016+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:16:50.240+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:16:50.240+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:16:50.283+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:16:50.283+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:16:50.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.409 seconds
+[2024-01-06T14:17:20.695+0000] {processor.py:161} INFO - Started process (PID=2105) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:17:20.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:17:20.699+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:17:20.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:17:20.720+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:17:20.867+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:17:20.866+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:17:20.896+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:17:20.895+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:17:20.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.236 seconds
+[2024-01-06T14:17:51.286+0000] {processor.py:161} INFO - Started process (PID=2126) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:17:51.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:17:51.288+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:17:51.288+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:17:51.311+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:17:51.453+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:17:51.453+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:17:51.480+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:17:51.480+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:17:51.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.231 seconds
+[2024-01-06T14:18:21.809+0000] {processor.py:161} INFO - Started process (PID=2152) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:18:21.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:18:21.818+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:18:21.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:18:21.848+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:18:21.990+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:18:21.990+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:18:22.016+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:18:22.015+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:18:22.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.249 seconds
+[2024-01-06T14:18:52.449+0000] {processor.py:161} INFO - Started process (PID=2171) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:18:52.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:18:52.454+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:18:52.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:18:52.503+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:18:52.738+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:18:52.738+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:18:52.773+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:18:52.773+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:18:52.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.407 seconds
+[2024-01-06T14:19:23.067+0000] {processor.py:161} INFO - Started process (PID=2198) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:19:23.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:19:23.069+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:19:23.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:19:23.093+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:19:23.261+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:19:23.261+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:19:23.292+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:19:23.291+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:19:23.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.277 seconds
+[2024-01-06T14:19:53.797+0000] {processor.py:161} INFO - Started process (PID=2218) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:19:53.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:19:53.819+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:19:53.818+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:19:53.842+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:19:54.195+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:19:54.195+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:19:54.252+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:19:54.252+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:19:54.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.519 seconds
+[2024-01-06T14:20:24.654+0000] {processor.py:161} INFO - Started process (PID=2241) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:20:24.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:20:24.656+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:20:24.656+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:20:24.680+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:20:24.929+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:20:24.929+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:20:24.956+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:20:24.955+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:20:24.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.350 seconds
+[2024-01-06T14:20:55.258+0000] {processor.py:161} INFO - Started process (PID=2263) to work on /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:20:55.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multipleVar.py for tasks to queue
+[2024-01-06T14:20:55.268+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:20:55.267+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:20:55.292+0000] {processor.py:840} INFO - DAG(s) '4444' retrieved from /opt/airflow/dags/multipleVar.py
+[2024-01-06T14:20:55.591+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:20:55.590+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T14:20:55.616+0000] {logging_mixin.py:188} INFO - [2024-01-06T14:20:55.616+0000] {dag.py:3820} INFO - Setting next_dagrun for 4444 to 2024-01-07T00:00:00+00:00, run_after=2024-01-08T00:00:00+00:00
+[2024-01-06T14:20:55.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multipleVar.py took 0.392 seconds

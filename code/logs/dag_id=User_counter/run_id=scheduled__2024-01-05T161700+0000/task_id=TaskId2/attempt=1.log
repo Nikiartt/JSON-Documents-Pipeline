@@ -1,0 +1,20 @@
+[2024-01-05T16:18:02.647+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2 permission to 509
+[2024-01-05T16:18:02.648+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2'
+[2024-01-05T16:18:02.683+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2 permission to 509
+[2024-01-05T16:18:02.684+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2'
+[2024-01-05T16:18:02.729+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: User_counter.TaskId2 scheduled__2024-01-05T16:17:00+00:00 [queued]>
+[2024-01-05T16:18:02.740+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: User_counter.TaskId2 scheduled__2024-01-05T16:17:00+00:00 [queued]>
+[2024-01-05T16:18:02.741+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-01-05T16:18:02.768+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): TaskId2> on 2024-01-05 16:17:00+00:00
+[2024-01-05T16:18:02.772+0000] {standard_task_runner.py:60} INFO - Started process 611 to run task
+[2024-01-05T16:18:02.777+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'User_counter', 'TaskId2', 'scheduled__2024-01-05T16:17:00+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/User_counter.py', '--cfg-path', '/tmp/tmpbt5w1x39']
+[2024-01-05T16:18:02.781+0000] {standard_task_runner.py:88} INFO - Job 16: Subtask TaskId2
+[2024-01-05T16:18:02.832+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2 permission to 509
+[2024-01-05T16:18:02.833+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2 permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-05T16:17:00+00:00/task_id=TaskId2'
+[2024-01-05T16:18:02.834+0000] {task_command.py:423} INFO - Running <TaskInstance: User_counter.TaskId2 scheduled__2024-01-05T16:17:00+00:00 [running]> on host 9c6a14667ea7
+[2024-01-05T16:18:02.931+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='User_counter' AIRFLOW_CTX_TASK_ID='TaskId2' AIRFLOW_CTX_EXECUTION_DATE='2024-01-05T16:17:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-05T16:17:00+00:00'
+[2024-01-05T16:18:02.932+0000] {logging_mixin.py:188} INFO - Table created
+[2024-01-05T16:18:02.933+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-05T16:18:02.943+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=User_counter, task_id=TaskId2, execution_date=20240105T161700, start_date=20240105T161802, end_date=20240105T161802
+[2024-01-05T16:18:02.991+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-05T16:18:03.011+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

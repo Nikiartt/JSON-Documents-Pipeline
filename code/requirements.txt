@@ -1,0 +1,13 @@
+databases
+DateTime==5.4
+fastapi[all]
+kafka-python==2.0.2
+passlib[bcrypt]
+pydantic==2.4.2
+pydantic-settings==2.0.3
+python-jose[cryptography]
+python-multipart==0.0.6
+SQLAlchemy==2.0.23
+typing
+uvicorn[standart]
+psycopg2

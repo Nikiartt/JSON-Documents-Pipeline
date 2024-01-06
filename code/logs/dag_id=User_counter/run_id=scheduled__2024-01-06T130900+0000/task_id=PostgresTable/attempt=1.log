@@ -1,0 +1,380 @@
+[2024-01-06T13:52:02.540+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable permission to 509
+[2024-01-06T13:52:02.542+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable'
+[2024-01-06T13:52:02.921+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable permission to 509
+[2024-01-06T13:52:02.923+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable'
+[2024-01-06T13:52:04.122+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: User_counter.PostgresTable scheduled__2024-01-06T13:09:00+00:00 [queued]>
+[2024-01-06T13:52:04.334+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: User_counter.PostgresTable scheduled__2024-01-06T13:09:00+00:00 [queued]>
+[2024-01-06T13:52:04.337+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-01-06T13:52:04.550+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): PostgresTable> on 2024-01-06 13:09:00+00:00
+[2024-01-06T13:52:04.648+0000] {standard_task_runner.py:60} INFO - Started process 1380 to run task
+[2024-01-06T13:52:04.761+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'User_counter', 'PostgresTable', 'scheduled__2024-01-06T13:09:00+00:00', '--job-id', '266', '--raw', '--subdir', 'DAGS_FOLDER/User_counter.py', '--cfg-path', '/tmp/tmpfousxda7']
+[2024-01-06T13:52:04.843+0000] {standard_task_runner.py:88} INFO - Job 266: Subtask PostgresTable
+[2024-01-06T13:52:05.704+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable permission to 509
+[2024-01-06T13:52:05.705+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=User_counter/run_id=scheduled__2024-01-06T13:09:00+00:00/task_id=PostgresTable'
+[2024-01-06T13:52:05.755+0000] {task_command.py:423} INFO - Running <TaskInstance: User_counter.PostgresTable scheduled__2024-01-06T13:09:00+00:00 [running]> on host ca5b1c72379e
+[2024-01-06T13:52:22.516+0000] {job.py:213} ERROR - Job heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/jobs/job.py", line 208, in heartbeat
+    heartbeat_callback(session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/jobs/local_task_job_runner.py", line 252, in heartbeat_callback
+    self.task_instance.refresh_from_db()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1726, in refresh_from_db
+    _refresh_from_db(task_instance=self, session=session, lock_for_update=lock_for_update)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 464, in _refresh_from_db
+    ti = TaskInstance.get_task_instance(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1712, in get_task_instance
+    return query.one_or_none()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2850, in one_or_none
+    return self._iter().one_or_none()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+    result = self.session.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/future/engine.py", line 406, in connect
+    return super(Engine, self).connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-01-06T13:52:37.840+0000] {job.py:221} ERROR - Job heartbeat failed with error. Scheduler is in unhealthy state
+[2024-01-06T13:57:23.471+0000] {job.py:221} ERROR - Job heartbeat failed with error. Scheduler is in unhealthy state
+[2024-01-06T13:57:23.583+0000] {local_task_job_runner.py:211} ERROR - Heartbeat time limit exceeded!
+[2024-01-06T14:02:21.693+0000] {process_utils.py:131} INFO - Sending 15 to group 1380. PIDs of all processes in the group: [1380]
+[2024-01-06T14:02:22.324+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 1380
+[2024-01-06T14:02:22.444+0000] {taskinstance.py:2451} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-01-06T14:02:22.450+0000] {logging_mixin.py:188} WARNING - --- Logging error ---
+[2024-01-06T14:02:22.848+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-01-06T14:02:22.849+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+[2024-01-06T14:02:22.888+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+[2024-01-06T14:02:22.952+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+[2024-01-06T14:02:22.970+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+[2024-01-06T14:02:22.975+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+[2024-01-06T14:02:22.978+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+[2024-01-06T14:02:22.980+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+[2024-01-06T14:02:22.981+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+[2024-01-06T14:02:22.981+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+[2024-01-06T14:02:22.982+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+[2024-01-06T14:02:22.982+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+[2024-01-06T14:02:22.983+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+[2024-01-06T14:02:22.986+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+[2024-01-06T14:02:22.986+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+[2024-01-06T14:02:22.987+0000] {logging_mixin.py:188} WARNING - psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+[2024-01-06T14:02:22.987+0000] {logging_mixin.py:188} WARNING - 
+The above exception was the direct cause of the following exception:
+[2024-01-06T14:02:22.988+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-01-06T14:02:22.988+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2335, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+[2024-01-06T14:02:22.988+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2471, in _execute_task_with_callbacks
+    RenderedTaskInstanceFields.delete_old_records(self.task_id, self.dag_id)
+[2024-01-06T14:02:22.990+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+[2024-01-06T14:02:22.990+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/renderedtifields.py", line 228, in delete_old_records
+    cls._do_delete_old_records(
+[2024-01-06T14:02:22.991+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/retries.py", line 91, in wrapped_function
+    for attempt in run_with_db_retries(max_retries=retries, logger=logger, **retry_kwargs):
+[2024-01-06T14:02:22.991+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+[2024-01-06T14:02:22.991+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+[2024-01-06T14:02:22.992+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+[2024-01-06T14:02:22.992+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+[2024-01-06T14:02:22.993+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+[2024-01-06T14:02:22.993+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/retries.py", line 100, in wrapped_function
+    return func(*args, **kwargs)
+[2024-01-06T14:02:22.993+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/renderedtifields.py", line 262, in _do_delete_old_records
+    session.execute(stmt)
+[2024-01-06T14:02:22.994+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+[2024-01-06T14:02:22.995+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+[2024-01-06T14:02:22.996+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+[2024-01-06T14:02:23.003+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/future/engine.py", line 406, in connect
+    return super(Engine, self).connect()
+[2024-01-06T14:02:23.004+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+[2024-01-06T14:02:23.004+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+[2024-01-06T14:02:23.006+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+[2024-01-06T14:02:23.011+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+[2024-01-06T14:02:23.012+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+[2024-01-06T14:02:23.012+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+[2024-01-06T14:02:23.013+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+[2024-01-06T14:02:23.013+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+[2024-01-06T14:02:23.013+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+[2024-01-06T14:02:23.014+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+[2024-01-06T14:02:23.014+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+[2024-01-06T14:02:23.015+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+[2024-01-06T14:02:23.015+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+[2024-01-06T14:02:23.016+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+[2024-01-06T14:02:23.016+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+[2024-01-06T14:02:23.016+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+[2024-01-06T14:02:23.017+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+[2024-01-06T14:02:23.017+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+[2024-01-06T14:02:23.018+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+[2024-01-06T14:02:23.018+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+[2024-01-06T14:02:23.018+0000] {logging_mixin.py:188} WARNING - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-01-06T14:02:23.019+0000] {logging_mixin.py:188} WARNING - 
+During handling of the above exception, another exception occurred:
+[2024-01-06T14:02:23.019+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-01-06T14:02:23.019+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+[2024-01-06T14:02:23.020+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+[2024-01-06T14:02:23.020+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 676, in format
+    record.exc_text = self.formatException(record.exc_info)
+[2024-01-06T14:02:23.020+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 626, in formatException
+    traceback.print_exception(ei[0], ei[1], tb, None, sio)
+[2024-01-06T14:02:23.021+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/traceback.py", line 103, in print_exception
+    for line in TracebackException(
+[2024-01-06T14:02:23.021+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/traceback.py", line 508, in __init__
+    self.stack = StackSummary.extract(
+[2024-01-06T14:02:23.021+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/traceback.py", line 362, in extract
+    linecache.checkcache(filename)
+[2024-01-06T14:02:23.022+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/linecache.py", line 74, in checkcache
+    stat = os.stat(fullname)
+[2024-01-06T14:02:23.022+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2453, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+[2024-01-06T14:02:23.025+0000] {logging_mixin.py:188} WARNING - ***.exceptions.AirflowException: Task received SIGTERM signal
+[2024-01-06T14:02:23.026+0000] {logging_mixin.py:188} WARNING - Call stack:
+[2024-01-06T14:02:23.217+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/bin/***", line 8, in <module>
+    sys.exit(main())
+[2024-01-06T14:02:23.217+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/__main__.py", line 57, in main
+    args.func(args)
+[2024-01-06T14:02:23.218+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2024-01-06T14:02:23.219+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+[2024-01-06T14:02:23.220+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/providers_configuration_loader.py", line 55, in wrapped_function
+    return func(*args, **kwargs)
+[2024-01-06T14:02:23.221+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/scheduler_command.py", line 60, in scheduler
+    run_command_with_daemon_option(
+[2024-01-06T14:02:23.223+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/daemon_utils.py", line 86, in run_command_with_daemon_option
+    callback()
+[2024-01-06T14:02:23.224+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/scheduler_command.py", line 63, in <lambda>
+    callback=lambda: _run_scheduler_job(args),
+[2024-01-06T14:02:23.225+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/scheduler_command.py", line 49, in _run_scheduler_job
+    run_job(job=job_runner.job, execute_callable=job_runner._execute)
+[2024-01-06T14:02:23.236+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+[2024-01-06T14:02:23.238+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 393, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+[2024-01-06T14:02:23.892+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 422, in execute_job
+    ret = execute_callable()
+[2024-01-06T14:02:23.897+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/scheduler_job_runner.py", line 846, in _execute
+    self.job.executor.start()
+[2024-01-06T14:02:23.897+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 372, in start
+    self.impl.start()
+[2024-01-06T14:02:23.898+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 311, in start
+    worker.start()
+[2024-01-06T14:02:23.898+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+[2024-01-06T14:02:23.899+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+[2024-01-06T14:02:23.899+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+[2024-01-06T14:02:23.899+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+[2024-01-06T14:02:23.900+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/popen_fork.py", line 75, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+[2024-01-06T14:02:23.900+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+[2024-01-06T14:02:23.900+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 77, in run
+    return super().run()
+[2024-01-06T14:02:23.901+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+[2024-01-06T14:02:23.901+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 201, in do_work
+    self.execute_work(key=key, command=command)
+[2024-01-06T14:02:23.901+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 94, in execute_work
+    state = self._execute_work_in_fork(command)
+[2024-01-06T14:02:23.902+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 134, in _execute_work_in_fork
+    args.func(args)
+[2024-01-06T14:02:23.902+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2024-01-06T14:02:23.902+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+[2024-01-06T14:02:23.903+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 438, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+[2024-01-06T14:02:23.903+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 216, in _run_task_by_selected_method
+    return _run_task_by_local_task_job(args, ti)
+[2024-01-06T14:02:23.907+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 278, in _run_task_by_local_task_job
+    ret = run_job(job=job_runner.job, execute_callable=job_runner._execute)
+[2024-01-06T14:02:23.907+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+[2024-01-06T14:02:23.908+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 393, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+[2024-01-06T14:02:23.908+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 422, in execute_job
+    ret = execute_callable()
+[2024-01-06T14:02:23.909+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/local_task_job_runner.py", line 165, in _execute
+    self.task_runner.start()
+[2024-01-06T14:02:23.909+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/task/task_runner/standard_task_runner.py", line 48, in start
+    self.process = self._start_by_fork()
+[2024-01-06T14:02:23.909+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/task/task_runner/standard_task_runner.py", line 100, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+[2024-01-06T14:02:23.910+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2024-01-06T14:02:23.910+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+[2024-01-06T14:02:23.910+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 438, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+[2024-01-06T14:02:23.911+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 218, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+[2024-01-06T14:02:23.911+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 297, in _run_raw_task
+    return ti._run_raw_task(
+[2024-01-06T14:02:23.912+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+[2024-01-06T14:02:23.912+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2391, in _run_raw_task
+    self.handle_failure(e, test_mode, context, session=session)
+[2024-01-06T14:02:23.918+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+[2024-01-06T14:02:23.963+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2795, in handle_failure
+    _handle_failure(
+[2024-01-06T14:02:23.968+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 808, in _handle_failure
+    failure_context = TaskInstance.fetch_handle_failure_context(
+[2024-01-06T14:02:24.015+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+[2024-01-06T14:02:24.026+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+[2024-01-06T14:02:24.027+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2699, in fetch_handle_failure_context
+    cls.logger().error("Task failed with exception", exc_info=(type(error), error, tb))
+[2024-01-06T14:02:24.028+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1475, in error
+    self._log(ERROR, msg, args, **kwargs)
+[2024-01-06T14:02:24.029+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+[2024-01-06T14:02:24.029+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+[2024-01-06T14:02:24.029+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+[2024-01-06T14:02:24.030+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 954, in handle
+    self.emit(record)
+[2024-01-06T14:02:24.030+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/log/file_task_handler.py", line 243, in emit
+    self.handler.emit(record)
+[2024-01-06T14:02:24.031+0000] {logging_mixin.py:188} WARNING - Message: 'Task failed with exception'
+Arguments: ()
+[2024-01-06T14:02:25.403+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=User_counter, task_id=PostgresTable, execution_date=20240106T130900, start_date=20240106T135204, end_date=20240106T140225
+[2024-01-06T14:02:26.074+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 266 for task PostgresTable ((psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 1380)
+[2024-01-06T14:02:26.106+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1380, status='terminated', exitcode=1, started='13:52:04') (1380) terminated with exit code 1
