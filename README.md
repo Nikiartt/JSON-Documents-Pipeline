@@ -1,4 +1,4 @@
-# Documents Processing Pipeline
+# JSON Documents Pipeline
 
 # Introduction & Goals
 This project combined tools like Jupyter/Pyspark-notebook, bitnami/Kafka image, FastAPI, Asyncio, Aiohttp, MongoDB image, SQLAlchemy, Postgres, Airflow image and the Docker.
