@@ -2,7 +2,7 @@
 
 # Introduction & Goals
 This project combined tools like Jupyter/Pyspark-notebook, bitnami/Kafka image, FastAPI, Asyncio, Aiohttp, MongoDB image, SQLAlchemy, Postgres, Airflow image and the Docker.
-Probably all these tools were connected and pulled to the pipeline in the Docker container. After pipeline speed was tested using client script, which simulated the stream of documents and estimated the response time. The maximum pipeline speed is around 20 responses(JSON rows) per second.
+Probably all these tools were connected and pulled to the pipeline in the Docker container. After pipeline speed was tested using client script, which simulated the stream of documents and estimated the response time. The maximum pipeline speed is around 20 responses(JSON documents) per second.
 
 # Contents
 
