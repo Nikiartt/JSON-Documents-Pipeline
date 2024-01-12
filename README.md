@@ -15,6 +15,7 @@ Probably all these tools were connected and pulled to the pipeline in the Docker
 - [Additional Tools](#additional-tools)
   - [Authentication](#authentication) 
   - [Airflow](#airflow)
+- [Pipeline testing](#pipeline-testing)
 - [Conclusion](#conclusion)
 - [LinkedIn Profile](#linkedin-profile)
 
