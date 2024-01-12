@@ -63,4 +63,4 @@ There was built special Asynchronous_api_client for testing purposes. This Async
 This project allowed me to learn the basics of configurations in docker, Api connection, and data transformation. Also, this project estimated the speed of the pipeline, 20 Json documents per second without errors from the pipeline side.
 
 # LinkedIn Profile
-- www.linkedin.com/in/arūras
+- www.linkedin.com/in/arturas-nikitinas
